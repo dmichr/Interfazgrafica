@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    height: 30px;
+    background-color: rgb(10, 46, 124);
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    font-size: 15px;
+    color:rgb(120, 124, 126);
+}
+
+.logo {
+    color: rgb(10, 46, 124);
+    font-size: 22px;
+}
+
+
+* {
+    margin: 3;
+    padding: 8;
+    box-sizing: content-box;
+    font-family: "Book Antiqua", sans-serif;
+    position: relative;
+}
+
+.login-form {
+    width: 350px;
+    padding: 40px 30px;
+    background: rgb(250, 249, 249);
+    border-radius:(4px);
+    margin: auto;
+    position: center;
+    left: 0;
+    right: 0;
+    top: 0%;
+    
+    
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 95%;
+    height: 35px;
+    border: none;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: rgb(49, 10, 10);
+    border: 1px solid rgb(211, 201, 201);
+    border-radius:(4px);
+
+    
+}
+
+.link {
+    
+    float: right;
+    font-size: 15px;
+    margin-bottom: 30px;
+    
+}
+
+input[type=button]{
+
+    font-size: 15px;
+    width: 340px;
+    height: 40px;
+    border: 1px solid blue;
+    padding: 5px;
+    background: rgb(59, 27, 219);
+    color: rgb(251, 249, 249);
+    border: 1px solid rgb(211, 201, 201);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.alert {
+    display: none;
+    font-size: 12px;
+    color: #f00;
+    float: left;
+}
+
+
+
+.notacion {
+    text-align: center;
+    position: fixed;
+    bottom: 0cm;
+    width: 100%;
+    padding: 1em 0;
+
+}
